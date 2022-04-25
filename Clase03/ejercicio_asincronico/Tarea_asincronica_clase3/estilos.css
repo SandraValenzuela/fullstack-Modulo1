@@ -1,0 +1,21 @@
+html{
+    background-color: darkgoldenrod;
+}
+
+h1{
+    font-size: 60px;
+    background-color: rgb(230, 190, 92);
+    color: chocolate;
+}
+p{
+    background-color: rgb(230, 190, 92);
+    color: saddlebrown;
+}
+#foto{
+width: 400px;
+border-radius: 10px;
+border-color: chocolate;
+border-style: 2px;
+    display: block;
+    margin: 0px auto;
+}

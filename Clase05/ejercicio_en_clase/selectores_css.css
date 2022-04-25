@@ -1,0 +1,64 @@
+/*  Selector Universal (*) siempre deben estar los 3 border para que funcione
+*{
+    border-width: 5px;
+    border-color: blueviolet;
+    border-style:double;
+}
+*/
+/*
+*{
+    border-width: 5px;
+    border-color: brown;
+    border-style: ridge;
+}*/
+
+/* otra forma de selector universal (*) y funciona con 1 sólo border 
+*{
+    border: 2px solid red
+}
+*/
+
+/* entrega color a todos los parrafos h3 que estén en la página
+h3{
+    color: blue;
+}
+*/
+
+/* entrega color a los parrafos h3 que estén dentro de un Div*/
+div h3{
+    color: blue;
+}
+
+/* entrega color a los parráfos que se encuentren anidados dentro de dos Div
+div div h3{
+    color: blue;
+}
+*/
+
+/*entrega color a todos los textos anidados dentro de varios selectores, ejemplo ul, li, a */ 
+ul li a{
+    color: chartreuse; /*color de la letra*/
+    background-color: aqua; /*color del fondo del parrafo*/
+    border-color: crimson; /* color al bode*/
+    border-top-width: 10px; /*tamaño del espacio que ocupa*/
+    border-style:dotted; /*borde del contorno */
+
+}
+
+/*entrega tamaño a las letras
+ul, li, a {
+    font-size: 30px;
+}
+*/
+
+/*entrega color solo a los ellementos p que sean hijos directos de un Div*/
+div > p {
+    color: forestgreen;
+}
+
+
+a ,p, ol{
+    border-color: darkorange;
+    border-top-width: 1px;
+    border-style: solid;
+}

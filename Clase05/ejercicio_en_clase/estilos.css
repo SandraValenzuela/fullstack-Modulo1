@@ -1,0 +1,43 @@
+*{
+    border-width: 5xp;
+    border-color: red;
+    border-style: dashed;
+}
+/* selector anidado sin importar donde */
+
+div div h3{
+    color: orange;
+
+}
+
+/* selector anidado de tres niveles */
+
+ul li a {
+    border-width: 5xp;
+    border-color: red;
+    border-style: dashed;
+    border-top: white;
+    border-style: solid; 
+
+}
+
+/* editor general de estilos de lineas */
+
+a{
+    background-color: blue;
+
+}
+
+/* selector anidado solo hijo directo */
+
+div >p {
+    color: chartreuse;
+}
+
+/* selector agrupado */
+
+a,p,ol {
+    border-color: blue;
+    border-top-width: 1xp;
+border-style: solid;
+}

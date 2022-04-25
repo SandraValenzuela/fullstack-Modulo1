@@ -1,0 +1,23 @@
+pag {
+    color :red;
+}
+
+pag {
+    color : brown;
+}
+
+pag {
+    color : magenta;
+}
+
+pag {
+    color : yellow;
+}
+
+
+/* estilo lista */
+
+ul {
+    background-color : blue;
+    color : yellowgreen;
+}

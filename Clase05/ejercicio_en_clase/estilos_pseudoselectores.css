@@ -1,0 +1,24 @@
+/* estilo modo norml */
+p {
+    background-color: black;
+    color: red;
+}
+
+/* Estilo cuando se pasa el mouse por encima */
+
+div:hover{
+    background-color: blue;
+    border-color: yellow;
+    border-width: 2xp;
+    border-style: solid;
+}
+
+/* Formulario, ejemplo focus */
+
+input:focus{
+    border-color: blue;
+    border-width: 5xp;
+    border-style: solid;
+    background-color: red;
+    
+}
